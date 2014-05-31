@@ -38,7 +38,6 @@
             document.getElementById("right").innerHTML="please select a play!";
             return;
         } 
-        alert(str);
         $.ajax({
             type: 'post',
             url: 'getCha.php',
