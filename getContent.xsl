@@ -22,7 +22,7 @@
                         <li>
                         <xsl:element name="a">
                             <xsl:attribute name="href">#<xsl:value-of select="TITLE"/></xsl:attribute>
-                            <xsl:attribute name="style">font-family:verdana;</xsl:attribute>
+                            <xsl:attribute name="style">font-family:verdana;font-size:20px</xsl:attribute>
                             <xsl:value-of select="TITLE"/>
                         </xsl:element>
                         <br/>
@@ -31,7 +31,7 @@
                             <li>
                             <xsl:element name="a">
                             <xsl:attribute name="href">#<xsl:value-of select="TITLE"/></xsl:attribute>
-                            <xsl:attribute name="style">font-family:verdana;</xsl:attribute>
+                            <xsl:attribute name="style">font-family:verdana;font-size:20px</xsl:attribute>
                             <xsl:value-of select="TITLE"/>
                             </xsl:element>
                             <br/>
@@ -49,14 +49,14 @@
                     <xsl:for-each select="ACT">
                         <xsl:element name="a">
                             <xsl:attribute name="name"><xsl:value-of select="TITLE"/></xsl:attribute>
-                            <xsl:attribute name="style">font-family:verdana;</xsl:attribute>
+                            <xsl:attribute name="style">font-family:verdana;font-size:30px</xsl:attribute>
                             <xsl:value-of select="TITLE"/>
                         </xsl:element>
                                                     <br/>
                         <xsl:for-each select="SCENE">
                             <xsl:element name="a">
                             <xsl:attribute name="name"><xsl:value-of select="TITLE"/></xsl:attribute>
-                            <xsl:attribute name="style">font-family:verdana;</xsl:attribute>
+                            <xsl:attribute name="style">font-family:verdana;font-size:25px</xsl:attribute>
                             <xsl:value-of select="TITLE"/>
                             </xsl:element>
                             <br/>
