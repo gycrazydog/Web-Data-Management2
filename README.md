@@ -1,6 +1,4 @@
-Web-Data-Management2
-====================
-#The source code for project 3,first assignment  of Web Data Management
+#The source code for project 2,first assignment  of Web Data Management
 
 #Organization
 
@@ -34,17 +32,11 @@ Put the php file in lib directory in the pear directory of your php directory.
 
 5 Use the php.ini in the Configuration-and-Data-file directory to replace the php.ini in your php directory. It contains all the necessary configuration for you. Then restart php.
 
-6 Install Lilypond, make sure it is installed in:
+6 In your exist db, create a folder called Shakespeare and upload the three xml files to the Shakespeare folder in exist-db. In the program the port number for exist-db is 8080, user name is admin and password is admin. You can change the configuration in search.php very easily.
 
-D:\LilyPond
-
-Also make sure that during installation the Python bundle is also installed(Do not uncheck the option for Python bundle)
-
-7 In your exist db, create a folder called movie and upload the music.xml in Configuration-and-Data-file folder to the movie folder in exist-db. In the program the port number for exist-db is 8080, user name is admin and password is admin. You can change the configuration in search.php very easily.
-
-8 Now you can run our applicaton. Enjoy!
+7 Now you can run our applicaton. Enjoy!
 
 
 ========
 
-The source code for project 3 of web data management
+The source code for project 2 of web data management
